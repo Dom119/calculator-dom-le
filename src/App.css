@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0,30,60);
+  color: white;
+}
+
+.container {
+  width: 320px;
+  height: 640px;
+  background-color: #10569c;
+  background-image: linear-gradient(150deg,#3c9eff, #10569c);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 10px 12px 20px 10px;
+  box-shadow: 12px 12px 20px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.display {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.keys {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.numbers {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subNumber {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  margin: 1px;
+}
+
+.key {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: #3399FF;
+  margin: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(150deg,#5dacfa, #1563b1);
+
+}
+
+.key:hover {
+  background-image: linear-gradient(rgb(250, 173, 121), rgb(255, 153, 0));
+}
+
+.key.onPress {
+  background-image: linear-gradient(rgb(200, 50, 0), rgb(200, 100, 0));
+}
+
+.keyLong {
+  width: 160px;
+  height: 80px;
+  border-radius: 50px;
+  background-color: white;
+  background-color: #3399FF;
+
+}
+
+.keyOperator {
+  margin: 2px;
+  /* background-image: radial-gradient(#3399FF, #10569c); */
+  background-image: linear-gradient(150deg,#5dacfa, #1563b1);
+  
+}
